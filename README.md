@@ -6,10 +6,10 @@ This project explores the use of chest X-ray images to detect potential contact 
 **Dataset Source**: (http://kaggle.com/datasets/tawsifurrahman/covid19-radiography-database)
 
 **Classes:**
-1)Normal
-2)COVID
-3)Lung Opacity
-4)Viral Pneumonia
+1) Normal
+2) COVID
+3) Lung Opacity
+4) Viral Pneumonia
 
 **Structure**: Images are organized into folders by class. Each folder contains a large number of chest X-ray images.
 
