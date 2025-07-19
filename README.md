@@ -14,7 +14,7 @@ This project explores the use of chest X-ray images to detect potential contact 
 **Structure**: Images are organized into folders by class. Each folder contains a large number of chest X-ray images.
 
 **Project Workflow** : 
-**1) Data Collection & Organization** : 
+1) **Data Collection & Organization** : 
 Images are loaded from class-specific folders stored in Google Drive.
 **2) Image Preprocessing** : 
 All images are resized to a standard size for fair comparison. Basic exploratory analysis is done to understand image brightness, contrast, and structure.
