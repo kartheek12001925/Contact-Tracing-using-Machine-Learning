@@ -13,7 +13,7 @@ This project explores the use of chest X-ray images to detect potential contact 
 
 **Structure**: Images are organized into folders by class. Each folder contains a large number of chest X-ray images.
 
-**Project Workflow**
+**Project Workflow** : 
 **1) Data Collection & Organization** : 
 Images are loaded from class-specific folders stored in Google Drive.
 **2) Image Preprocessing** : 
@@ -25,25 +25,15 @@ Each image is treated as a node. Edges are drawn between nodes (patients) if the
 **5) Visualization** : 
 The contact tracing graph is plotted, where clusters or connected components may indicate related transmission or exposure.
 
-**Goals**
-1)Demonstrate how medical imaging can assist in epidemiological tracing.
-2)Provide a visual tool to map potential exposure paths.
-3)Build a reusable framework for image-based contact tracing.
-
-**Insights & Outcomes**
+**Insights & Outcomes** : 
 1) Patterns in lung opacity and structure can be compared visually to find image-level similarities.
 2) Patients with similar lung X-ray features often cluster in the graph, suggesting potential exposure linkage.
 3) Graph theory provides a compelling way to model and visualize contact networks from visual data.
 
-**Tools Used**
+**Tools Used** : 
 1) Google Colab + Google Drive
 2) Python
 3) Pandas, NumPy
 4) PIL & OpenCV (for image processing)
 5) NetworkX (for graph construction)
 6) Matplotlib & Plotly (for visualization)
-
-**Potential Improvements**
-1) Use structural similarity index (SSIM) or deep learning embeddings for better accuracy.
-2) Incorporate metadata like patient ID, time of test, and symptoms.
-3) Enable interactive dashboards for public health use.
