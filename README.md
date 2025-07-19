@@ -1,4 +1,4 @@
-Contact Tracing using Machine Learning
+**Contact Tracing using Machine Learning**
 
 **Overview**
 This project explores the use of chest X-ray images to detect potential contact links between patients by analyzing visual similarities in their lungs. The core idea is to build a graph-based network where patients are connected if their X-ray images show high similarity — helping visualize possible contact chains and aiding in early tracing efforts.
