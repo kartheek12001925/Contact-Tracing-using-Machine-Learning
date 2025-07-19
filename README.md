@@ -16,13 +16,13 @@ This project explores the use of chest X-ray images to detect potential contact 
 **Project Workflow** : 
 1) **Data Collection & Organization** : 
 Images are loaded from class-specific folders stored in Google Drive.
-**2) Image Preprocessing** : 
+2) **Image Preprocessing** : 
 All images are resized to a standard size for fair comparison. Basic exploratory analysis is done to understand image brightness, contrast, and structure.
-**3) Image Similarity Detection** : 
+3) **Image Similarity Detection** : 
 Image similarity is calculated using visual histograms. If the similarity exceeds a defined threshold, the images are considered "linked."
-**4) Graph Construction** : 
+4) **Graph Construction** : 
 Each image is treated as a node. Edges are drawn between nodes (patients) if their images are similar enough. This forms a graph that highlights potential contact links.
-**5) Visualization** : 
+5) **Visualization** : 
 The contact tracing graph is plotted, where clusters or connected components may indicate related transmission or exposure.
 
 **Insights & Outcomes** : 
